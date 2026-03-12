@@ -1,0 +1,12 @@
+name:Test_CI
+on:
+  push:
+    branches:
+    - main
+    - release/*
+jobs:
+  my_job:
+    name: deploy to staging
+    runs-on: ubuntu-22.04
+    steps:
+      - run: echo "Deploying to production server on branch $GITHUB_REF, Hi Mahesh"
