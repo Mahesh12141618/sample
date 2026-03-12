@@ -1,6 +1,6 @@
 name: Test_CI
 on:
-  push:
+  pull_request:
     branches:
     - main
     - release/*
