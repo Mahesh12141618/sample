@@ -1,4 +1,4 @@
-name:Test_CI
+name: Test_CI
 on:
   push:
     branches:
